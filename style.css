@@ -1,7 +1,9 @@
 body{
-      background-image: url(Jellyfish.jpg);
+      background-image: url(bg2.jpg);
       background-size: cover;
-      background-repeat:no-repeat;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
 }
  #logo{
        opacity: 1;
@@ -29,21 +31,37 @@ body{
        border-color: yellowgreen;
        border-style: solid;
        align-items: center;
-       background-color: rgb(108, 108, 248, 0.5);
+       background-color: rgb(154,205,50, 0.5);
        margin-top: 50px;
        align-self: center;
-       margin-left: 230px;      
+       margin-left: 230px;    
+         
  }
  
  #button{
 text-decoration: none;
 align-self:center;
-margin-left:180px ;
+margin-left:175px ;
 color: royalblue;
 background-color: yellowgreen;
 border-radius: 20px;
-padding: 15px;
+padding: 20px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
 font-weight: bold;
 cursor: pointer;
+
  }
+ #button:hover{
+      text-decoration: none;
+      align-self:center;
+      margin-left:175px ;
+      color: yellow;
+      background-color: transparent;
+      border-radius: 20px;
+      padding: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: yellow 0px 22px 70px 4px;
+      border-style: solid;
+ }    
